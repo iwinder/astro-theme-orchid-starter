@@ -7,13 +7,19 @@
 
 ## 快速开始
 
-> 推荐先在 GitHub 上对本仓库点 **Use this template** 生成你自己的仓库，再克隆。
+推荐在 GitHub 上对本仓库点 **Use this template**，把模板生成到你自己的账号下（仓库名自定），然后克隆**你生成的仓库**（地址在你仓库页面的 Code 按钮里）：
 
 ```sh
-git clone https://github.com/<你的用户名>/astro-theme-orchid-starter.git my-blog
+git clone https://github.com/<你的账号>/<你的仓库名>.git my-blog
 cd my-blog
 pnpm install
 pnpm dev          # http://localhost:4321
+```
+
+只想先体验效果，也可以直接克隆模板本体：
+
+```sh
+git clone https://github.com/iwinder/astro-theme-orchid-starter.git my-blog
 ```
 
 ## 必改清单
