@@ -1,0 +1,16 @@
+# build 产物与运行时
+dist/
+.astro/
+
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 本地环境（不随模板分发）
+.npmrc
+_tmp_*
+*.log
+*.tgz
+
+# 系统文件
+.DS_Store

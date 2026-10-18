@@ -1,0 +1,14 @@
+# 单项目（非 monorepo）：pnpm v10+ 的 overrides 也写在这里
+# 统一 katex 版本：主题包 / rehype-katex 等必须共享同一实例，
+# mhchem 宏（import 'katex/contrib/mhchem'）才能对 rehype-katex 生效
+overrides:
+  katex: ^0.19.0
+  # micromark-util-character@2.0.0 的 unicodePunctuation 正则缺 \p{S}，
+  # 导致 remark-directive 无法解析带 "=" initializer 的指令属性
+  # （如 ::github{repo="user/repo"}，"=" 属 Sm 类不匹配 /\p{P}/u）；
+  # 2.1.x 起修复为 /\p{P}|\p{S}/u，锁死升级防回退
+  micromark-util-character: ^2.1.1
+  # style-to-js@1.0.0 纯 CJS（exports.default 形态），hast-util-to-estree@3.1.3
+  # 在 ESM 下默认导入得到对象而非函数，MDX 编译带 style 属性的节点（EC/katex
+  # 输出）时报 "styleToJs is not a function"；1.1.x 起修正 module.exports 互操作
+  style-to-js: ^1.1.16
