@@ -55,7 +55,7 @@ git clone https://github.com/iwinder/astro-theme-orchid-starter.git my-blog
 │       ├── posts/           # 你的文章
 │       └── spec/            # 独立页正文（about / friends / guestbook）
 ├── public/                  # 静态资源（favicon 等）
-└── scripts/                  # 构建辅助（字体子集化 / LQIP / 新建文章）
+└── scripts/                  # new-post 新建文章（字体子集化/LQIP 脚本由主题包内置，pnpm build/lqip 直接调用）
 ```
 
 ## 进阶

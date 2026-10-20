@@ -20,8 +20,8 @@ importers:
         specifier: ^1.2.100
         version: 1.2.100
       '@windcoder/astro-theme-orchid':
-        specifier: ^0.2.0
-        version: 0.2.0(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
+        specifier: ^0.2.1
+        version: 0.2.1(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
       astro:
         specifier: ^7.0.7
         version: 7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1)
@@ -41,9 +41,6 @@ importers:
       pagefind:
         specifier: ^1.5.2
         version: 1.5.2
-      subset-font:
-        specifier: ^2.5.0
-        version: 2.9.0
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
@@ -899,8 +896,8 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  '@windcoder/astro-theme-orchid@0.2.0':
-    resolution: {integrity: sha512-CMLQSvC2pcieMAvnUDNEg/jiJEbTzUP6tKkWs4ZyuF1aHdZyggd6RnrLpT4Pab9bpKWWcbAVL544bQb7VwJaZw==}
+  '@windcoder/astro-theme-orchid@0.2.1':
+    resolution: {integrity: sha512-DcXH6H8cvWT1rQsvjUsfkQqd2z6FrdhWhFeqpoT4TS88e/IS/riyeKDrEozWj01JIkfbDrZ3x/ITfS9C5Snapg==}
     peerDependencies:
       '@iconify-json/lucide': ^1.2.0
       '@iconify-json/simple-icons': ^1.2.0
@@ -3289,7 +3286,7 @@ snapshots:
       remark-parse: 11.0.0
       remark-rehype: 11.1.2
       source-map: 0.7.0
-      unified: 11.0.5
+      unified: 11.0.0
       unist-util-position-from-estree: 2.0.0
       unist-util-stringify-position: 4.0.0
       unist-util-visit: 5.1.0
@@ -3604,7 +3601,7 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@windcoder/astro-theme-orchid@0.2.0(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))':
+  '@windcoder/astro-theme-orchid@0.2.1(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@astrojs/markdown-remark': 7.3.3
       '@astrojs/rss': 4.0.19
@@ -3631,6 +3628,7 @@ snapshots:
       remark-math: 6.0.0
       satori: 0.47.1
       sharp: 0.35.5(@types/node@24.19.2)
+      subset-font: 2.9.0
       tailwindcss: 4.3.3
     transitivePeerDependencies:
       - '@astrojs/starlight'
@@ -5231,20 +5229,20 @@ snapshots:
       estree-util-to-js: 2.0.0
       recma-parse: 1.0.0
       recma-stringify: 1.0.0
-      unified: 11.0.5
+      unified: 11.0.0
 
   recma-parse@1.0.0:
     dependencies:
       '@types/estree': 1.0.9
       esast-util-from-js: 2.0.1
-      unified: 11.0.5
+      unified: 11.0.0
       vfile: 6.0.3
 
   recma-stringify@1.0.0:
     dependencies:
       '@types/estree': 1.0.9
       estree-util-to-js: 2.0.0
-      unified: 11.0.5
+      unified: 11.0.0
       vfile: 6.0.3
 
   regex-recursion@6.0.2:
@@ -5289,14 +5287,14 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.5
       hast-util-to-html: 9.0.5
-      unified: 11.0.5
+      unified: 11.0.0
 
   remark-directive@4.0.0:
     dependencies:
       '@types/mdast': 4.0.4
       mdast-util-directive: 3.1.1
       micromark-extension-directive: 4.0.0
-      unified: 11.0.5
+      unified: 11.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5307,7 +5305,7 @@ snapshots:
       micromark-extension-gfm: 3.0.0
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
-      unified: 11.0.5
+      unified: 11.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5332,7 +5330,7 @@ snapshots:
       '@types/mdast': 4.0.4
       mdast-util-from-markdown: 2.1.0
       micromark-util-types: 2.0.3
-      unified: 11.0.5
+      unified: 11.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5341,7 +5339,7 @@ snapshots:
       '@types/hast': 3.0.5
       '@types/mdast': 4.0.4
       mdast-util-to-hast: 13.2.1
-      unified: 11.0.5
+      unified: 11.0.0
       vfile: 6.0.3
 
   remark-smartypants@3.0.3:
@@ -5355,7 +5353,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       mdast-util-to-markdown: 2.2.0
-      unified: 11.0.5
+      unified: 11.0.0
 
   request-light@0.5.8: {}
 
@@ -5373,7 +5371,7 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
       parse-latin: 7.0.0
-      unified: 11.0.5
+      unified: 11.0.0
 
   retext-smartypants@6.2.0:
     dependencies:
@@ -5385,14 +5383,14 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
       nlcst-to-string: 4.0.0
-      unified: 11.0.5
+      unified: 11.0.0
 
   retext@9.0.0:
     dependencies:
       '@types/nlcst': 2.0.3
       retext-latin: 4.0.0
       retext-stringify: 4.0.0
-      unified: 11.0.5
+      unified: 11.0.0
 
   rolldown@1.2.14:
     dependencies:

@@ -1,3 +1,5 @@
+minimumReleaseAgeExclude:
+  - '@windcoder/astro-theme-orchid@0.2.1'
 # 单项目（非 monorepo）：pnpm v10+ 的 overrides 也写在这里
 # 统一 katex 版本：主题包 / rehype-katex 等必须共享同一实例，
 # mhchem 宏（import 'katex/contrib/mhchem'）才能对 rehype-katex 生效
