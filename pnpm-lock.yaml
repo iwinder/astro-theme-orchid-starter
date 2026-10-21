@@ -20,8 +20,8 @@ importers:
         specifier: ^1.2.100
         version: 1.2.100
       '@windcoder/astro-theme-orchid':
-        specifier: ^0.2.1
-        version: 0.2.1(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
+        specifier: ^0.3.0
+        version: 0.3.0(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))
       astro:
         specifier: ^7.0.7
         version: 7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1)
@@ -896,8 +896,8 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  '@windcoder/astro-theme-orchid@0.2.1':
-    resolution: {integrity: sha512-DcXH6H8cvWT1rQsvjUsfkQqd2z6FrdhWhFeqpoT4TS88e/IS/riyeKDrEozWj01JIkfbDrZ3x/ITfS9C5Snapg==}
+  '@windcoder/astro-theme-orchid@0.3.0':
+    resolution: {integrity: sha512-HWMKTFYoc/mX9sw2NXJdgBo9KyJBmLqC6uFJG5iyFawmqhJ1t03cy0VQvRkSFOLhZElgrRaK3ndizMGl6HKoWA==}
     peerDependencies:
       '@iconify-json/lucide': ^1.2.0
       '@iconify-json/simple-icons': ^1.2.0
@@ -2668,6 +2668,9 @@ packages:
   web-namespaces@2.0.1:
     resolution: {integrity: sha512-bKr1DkiNa2krS7qxNtdrtHAmzuYGFQLiQ13TsorsdT6ULTkPLKuu5+GsFpDlg6JFjUTwX2DyhMPG2be8uPrqsQ==}
 
+  web-vitals@6.2.3:
+    resolution: {integrity: sha512-Dmy+vdO1UPMqXiAtZSNayhl4f794Bxfd94W4HIj2HlYtczEQfEOon969memlcpcHrTuOKLa5baFjX7WbgmOq+A==}
+
   which-module@2.0.1:
     resolution: {integrity: sha512-iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==}
 
@@ -3601,7 +3604,7 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  '@windcoder/astro-theme-orchid@0.2.1(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))':
+  '@windcoder/astro-theme-orchid@0.3.0(@astrojs/starlight@0.42.6(@astrojs/markdown-remark@7.3.3)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(typescript@6.0.3))(@expressive-code/core@0.44.2)(@iconify-json/lucide@1.2.145)(@iconify-json/simple-icons@1.2.100)(@types/node@24.19.2)(astro@7.4.0(@astrojs/markdown-remark@7.3.3)(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))(vite@8.3.4(@types/node@24.19.2)(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@astrojs/markdown-remark': 7.3.3
       '@astrojs/rss': 4.0.19
@@ -3630,6 +3633,8 @@ snapshots:
       sharp: 0.35.5(@types/node@24.19.2)
       subset-font: 2.9.0
       tailwindcss: 4.3.3
+      web-vitals: 6.2.3
+      yaml: 2.9.1
     transitivePeerDependencies:
       - '@astrojs/starlight'
       - '@expressive-code/core'
@@ -5870,6 +5875,8 @@ snapshots:
       argparse: 2.0.1
 
   web-namespaces@2.0.1: {}
+
+  web-vitals@6.2.3: {}
 
   which-module@2.0.1: {}
 
