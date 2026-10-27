@@ -14,16 +14,16 @@
 		"new-post": "node scripts/new-post.mjs"
 	},
 	"dependencies": {
-		"@iconify-json/lucide": "^1.2.145",
+		"@iconify-json/lucide": "^1.2.147",
 		"@iconify-json/simple-icons": "^1.2.100",
-		"@windcoder/astro-theme-orchid": "^0.4.0",
-		"astro": "^7.0.7",
+		"@windcoder/astro-theme-orchid": "^0.4.4",
+		"astro": "^7.4.2",
 		"astro-icon": "^1.2.0",
 		"sharp": "^0.35.5",
-		"satori": "^0.47.1"
+		"satori": "^0.63.2"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.9",
+		"@astrojs/check": "^0.9.12",
 		"pagefind": "^1.5.2",
 		"typescript": "^6.0.3"
 	}
